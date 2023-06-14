@@ -1,0 +1,2 @@
+#bg-move{height:300vh;-webkit-transform:translateX(0);transform:translateX(0);transition:2s ease-in-out;width:340vw}#sign-in{-webkit-transform:translateX(100vw);transform:translateX(100vw)}#sign-in,#sign-up{opacity:0;pointer-events:none;transition:2s ease-in-out}#sign-up{-webkit-transform:translateX(-120vw);transform:translateX(-120vw)}#welcome{-webkit-transform:translateX(0);transform:translateX(0);transition:2s ease-in-out}
+/*# sourceMappingURL=693.68a1fa97.chunk.css.map*/

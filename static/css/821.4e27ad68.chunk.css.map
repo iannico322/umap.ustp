@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/821.4e27ad68.chunk.css","mappings":"AAAA,8BACE,0BACF","sources":["components/search/search.css"],"sourcesContent":["#animationActived,#animatedUL{\n  transition: 500ms ease-in-out;\n}"],"names":[],"sourceRoot":""}
