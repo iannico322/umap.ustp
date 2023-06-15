@@ -24,8 +24,7 @@ const SignIn = () => {
 
  
   useEffect(()=>{
-    localStorage.setItem("access","")
-    if (localStorage.getItem("access") != "") {
+    if (localStorage.getItem("access") != null) {
       navigate("/umap/main");
     }
   },[])
