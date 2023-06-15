@@ -48,7 +48,7 @@ export const UserNav = () => {
             Going-To
           </Link>
           <Link
-            to="/"
+            to="/welcome"
             className="flex gap-2 items-center transition-transform cursor-pointer  hover:drop-shadow-md hover:scale-[1.1]"
             onClick={() => {
               localStorage.clear();
@@ -83,7 +83,7 @@ export const UserNav = () => {
             Going-To
           </Link>
           <Link
-            to="/"
+            to="/welcome"
             className="flex gap-2 items-center transition-transform cursor-pointer  hover:drop-shadow-md hover:scale-[1.1]"
             onClick={() => {
               localStorage.clear();

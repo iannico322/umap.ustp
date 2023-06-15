@@ -34,7 +34,7 @@ const ForgotPassword = () => {
     <div className='relative flex items-center justify-center w-screen h-screen overflow-hidden '>
       <div className="fixed top-0 z-50 flex justify-around object-contain w-full mt-4 cursor-pointer h-14 animate__animated animate__fadeInDown ">
           
-          <Link to="/">
+          <Link to="/welcome">
           <img
             src={UmapLogo}
             className="z-50 h-10 object-contain cursor-pointer hover:scale-[0.9] transition-transform "
@@ -49,7 +49,7 @@ const ForgotPassword = () => {
           <ul className="flex items-center gap-4 ">
             <li>
               {" "}
-              <Link to="/" className=" text-base hover:bg-green-500 active:bg-green-300 text-white px-6 rounded-lg py-3 bg-yellow hover:scale-[1.07] transition-transform">
+              <Link to="/welcome" className=" text-base hover:bg-green-500 active:bg-green-300 text-white px-6 rounded-lg py-3 bg-yellow hover:scale-[1.07] transition-transform">
                 Go to Umap
               </Link>{" "}
             </li>

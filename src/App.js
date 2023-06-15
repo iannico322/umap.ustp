@@ -56,9 +56,9 @@ function App() {
   return (
     <Router basename="umap.ustp">
       <Routes>
-        <Route path="umap.ustp" element={<Navigate replace to="/" />} />
+        <Route path="umap.ustp" element={<Navigate replace to="/welcome" />} />
         <Route
-          path="/"
+          path="/welcome"
           element={
             <>
               <Suspense fallback={<Loader />}>
