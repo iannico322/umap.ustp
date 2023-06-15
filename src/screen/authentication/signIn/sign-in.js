@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Input from "./../../../components/input/input";
 import { useNavigate } from "react-router-dom";
 import { Alert } from "@mui/material";
@@ -7,9 +7,11 @@ const SignIn = () => {
   const navigate = useNavigate();
  
   const { data, setData, handleSubmit } = SignInViewModel({
-    onSignIn: () => {
-      navigate("/umap.ustp/umap/main");
-    },
+      onSignIn: () => {
+        navigate("/umap/main");
+      }
+  
+    ,
     onAlert: (alert) => {
       setAlert(alert);
     },
@@ -19,6 +21,14 @@ const SignIn = () => {
     type: "warning",
     text: "",
   });
+
+ 
+  useEffect(()=>{
+    localStorage.setItem("access","")
+    if (localStorage.getItem("access") != "") {
+      navigate("/umap/main");
+    }
+  },[])
 
   
 
@@ -55,7 +65,7 @@ const SignIn = () => {
             <p
               className="font-light cursor-pointer hover:underline"
               onClick={() => {
-                navigate("/umap.ustp/forgot-password");
+                navigate("/forgot-password");
               }}
             >
               Forgot password?

@@ -54,11 +54,11 @@ const Admin = lazy(() => wait(1000).then(() => import("./screen/admin/admin")));
 
 function App() {
   return (
-    <Router basename="umap.ustp">
+    <Router basename="/umap.ustp">
       <Routes>
-        <Route path="" element={<Navigate replace to="/umap.ustp" />} />
+        <Route path="/umap.ustp" element={<Navigate replace to="/welcome" />} />
         <Route
-          path="/umap.ustp"
+          path="/welcome"
           element={
             <>
               <Suspense fallback={<Loader />}>
