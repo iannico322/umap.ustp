@@ -8,7 +8,7 @@ import store from "./cache/store";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { persistStore } from "redux-persist";
-import { HashRouter } from 'react-router-dom';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -18,9 +18,9 @@ root.render(
   <Provider store={store}>
     <React.StrictMode>
       <PersistGate persistor={persistor}>
-      <HashRouter>
+    
           <App />
-      </HashRouter>
+   
       </PersistGate>
     </React.StrictMode>
   </Provider>
