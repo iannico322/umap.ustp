@@ -1,0 +1,25 @@
+#bg-move {
+  transition: ease-in-out 2000ms;
+  transform: translateX(0vw);
+  width: 340vw;
+  height: 300vh;
+}
+
+#sign-in {
+  transition: ease-in-out 2000ms;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(100vw);
+}
+
+#sign-up {
+  transition: ease-in-out 2000ms;
+  opacity: 0;
+  transform: translateX(-120vw);
+  pointer-events: none;
+}
+
+#welcome {
+  transition: ease-in-out 2000ms;
+  transform: translateX(0vw);
+}
