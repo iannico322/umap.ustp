@@ -49,7 +49,7 @@ const ForgotPassword = () => {
           <ul className="flex items-center gap-4 ">
             <li>
               {" "}
-              <Link to="/umap.ustp" className=" text-base hover:bg-green-500 active:bg-green-300 text-white px-6 rounded-lg py-3 bg-yellow hover:scale-[1.07] transition-transform">
+              <Link to="/" className=" text-base hover:bg-green-500 active:bg-green-300 text-white px-6 rounded-lg py-3 bg-yellow hover:scale-[1.07] transition-transform">
                 Go to Umap
               </Link>{" "}
             </li>

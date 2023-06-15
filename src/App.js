@@ -56,9 +56,9 @@ function App() {
   return (
     <Router basename="umap.ustp">
       <Routes>
-        <Route path="" element={<Navigate replace to="/umap.ustp" />} />
+        <Route path="" element={<Navigate replace to="/" />} />
         <Route
-          path="/umap.ustp"
+          path="/"
           element={
             <>
               <Suspense fallback={<Loader />}>
@@ -68,7 +68,7 @@ function App() {
           }
         />
         <Route
-          path="/umap.ustp/guest"
+          path="/guest"
           element={
             <Suspense fallback={<Loader />}>
               <Guest />
@@ -77,7 +77,7 @@ function App() {
         />
 
         <Route
-          path="/umap.ustp/activation/:uid/:token"
+          path="/activation/:uid/:token"
           element={
             <Suspense fallback={<Loader />}>
               <Activation />
@@ -86,7 +86,7 @@ function App() {
         />
 
         <Route
-          path="/umap.ustp/forgot-password"
+          path="/forgot-password"
           element={
             <Suspense fallback={<Loader />}>
               <ForgotPassword />
@@ -95,7 +95,7 @@ function App() {
         />
 
         <Route
-          path="/umap.ustp/reset-password/:uid/:token"
+          path="/reset-password/:uid/:token"
           element={
             <Suspense fallback={<Loader />}>
               <ResetPassword />
@@ -104,19 +104,19 @@ function App() {
         />
 
         <Route
-          path="/umap.ustp/umap"
+          path="/umap"
           element={
             <Suspense fallback={<Loader />}>
               <Main />
             </Suspense>
           }
         >
-          <Route path="/umap.ustp/umap/main" element={<Home />} />
-          <Route path="/umap.ustp/umap/profile" element={<Profile />} />
+          <Route path="/umap/main" element={<Home />} />
+          <Route path="/umap/profile" element={<Profile />} />
         </Route>
 
         <Route
-          path="/umap.ustp/admin"
+          path="/69/admin"
           element={
             <Suspense fallback={<Loader />}>
               <Admin />

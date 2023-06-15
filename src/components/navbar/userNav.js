@@ -34,21 +34,21 @@ export const UserNav = () => {
           id="options"
         >
           <Link
-            to="/umap.ustp/umap/profile"
+            to="/umap/profile"
             className=" flex gap-2 items-center transition-transform cursor-pointer  hover:drop-shadow-md hover:scale-[1.1]"
           >
             <span className="material-symbols-outlined">account_box</span>
             Profile
           </Link>
           <Link
-            to="/umap.ustp/umap/main"
+            to="/umap/main"
             className=" flex flex-row gap-2 relative items-center transition-transform cursor-pointer  hover:drop-shadow-md hover:scale-[1.1]"
           >
             <span className="material-symbols-outlined">apartment</span>
             Going-To
           </Link>
           <Link
-            to="/umap.ustp"
+            to="/"
             className="flex gap-2 items-center transition-transform cursor-pointer  hover:drop-shadow-md hover:scale-[1.1]"
             onClick={() => {
               localStorage.clear();
@@ -69,21 +69,21 @@ export const UserNav = () => {
           id="options"
         >
           <Link
-            to="/umap.ustp/umap/profile"
+            to="/umap/profile"
             className=" flex gap-2 items-center transition-transform cursor-pointer  hover:drop-shadow-md hover:scale-[1.1]"
           >
             <span className="material-symbols-outlined">account_box</span>
             Profile
           </Link>
           <Link
-            to="/umap.ustp/umap/main"
+            to="/umap/main"
             className=" flex flex-row gap-2 relative items-center transition-transform cursor-pointer  hover:drop-shadow-md hover:scale-[1.1]"
           >
             <span className="material-symbols-outlined">apartment</span>
             Going-To
           </Link>
           <Link
-            to="/umap.ustp"
+            to="/"
             className="flex gap-2 items-center transition-transform cursor-pointer  hover:drop-shadow-md hover:scale-[1.1]"
             onClick={() => {
               localStorage.clear();

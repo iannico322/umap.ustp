@@ -142,7 +142,7 @@ const Welcome = () => {
                   </button>
                   <Link
                     className=" bg-[#282828] sm:px-4 sm:text-base sm:py-4  hover:bg-opacity-40 active:bg-opacity-20  bg-opacity-100  px-8 py-4 text-[#e8e8e8] font-semibold rounded-2xl "
-                    to="/umap.ustp/guest"
+                    to="/guest"
                   >
                     I’m a guest
                   </Link>
