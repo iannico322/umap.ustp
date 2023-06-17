@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/umap.ustp/static/css/main.c083074b.css",
-    "main.js": "/umap.ustp/static/js/main.e565fd15.js",
+    "main.js": "/umap.ustp/static/js/main.26cbb60e.js",
     "static/css/693.68a1fa97.chunk.css": "/umap.ustp/static/css/693.68a1fa97.chunk.css",
-    "static/js/693.ea9daca8.chunk.js": "/umap.ustp/static/js/693.ea9daca8.chunk.js",
+    "static/js/693.4190f281.chunk.js": "/umap.ustp/static/js/693.4190f281.chunk.js",
     "static/js/85.9fb85b21.chunk.js": "/umap.ustp/static/js/85.9fb85b21.chunk.js",
     "static/js/881.2f1b757e.chunk.js": "/umap.ustp/static/js/881.2f1b757e.chunk.js",
     "static/js/66.1580bec9.chunk.js": "/umap.ustp/static/js/66.1580bec9.chunk.js",
@@ -12,10 +12,10 @@
     "static/js/22.7eb921ca.chunk.js": "/umap.ustp/static/js/22.7eb921ca.chunk.js",
     "static/css/994.bfed9913.chunk.css": "/umap.ustp/static/css/994.bfed9913.chunk.css",
     "static/js/994.b21c2921.chunk.js": "/umap.ustp/static/js/994.b21c2921.chunk.js",
-    "static/css/821.4e27ad68.chunk.css": "/umap.ustp/static/css/821.4e27ad68.chunk.css",
-    "static/js/821.2d0f0a70.chunk.js": "/umap.ustp/static/js/821.2d0f0a70.chunk.js",
-    "static/css/384.2ba26308.chunk.css": "/umap.ustp/static/css/384.2ba26308.chunk.css",
-    "static/js/384.e2007fdf.chunk.js": "/umap.ustp/static/js/384.e2007fdf.chunk.js",
+    "static/css/411.6e77c8f1.chunk.css": "/umap.ustp/static/css/411.6e77c8f1.chunk.css",
+    "static/js/411.3ce1900c.chunk.js": "/umap.ustp/static/js/411.3ce1900c.chunk.js",
+    "static/css/827.f3822797.chunk.css": "/umap.ustp/static/css/827.f3822797.chunk.css",
+    "static/js/827.f3ab674b.chunk.js": "/umap.ustp/static/js/827.f3ab674b.chunk.js",
     "static/js/787.fe5dcdae.chunk.js": "/umap.ustp/static/js/787.fe5dcdae.chunk.js",
     "static/css/578.26666d82.chunk.css": "/umap.ustp/static/css/578.26666d82.chunk.css",
     "static/js/578.85b4411a.chunk.js": "/umap.ustp/static/js/578.85b4411a.chunk.js",
@@ -24,6 +24,7 @@
     "static/js/811.ba8efa21.chunk.js": "/umap.ustp/static/js/811.ba8efa21.chunk.js",
     "static/js/590.6d824a1c.chunk.js": "/umap.ustp/static/js/590.6d824a1c.chunk.js",
     "static/js/581.1e2ae131.chunk.js": "/umap.ustp/static/js/581.1e2ae131.chunk.js",
+    "static/js/492.45bf8af8.chunk.js": "/umap.ustp/static/js/492.45bf8af8.chunk.js",
     "static/media/2dmapc.jpg": "/umap.ustp/static/media/2dmapc.78e8fea10ecfc74ddb63.jpg",
     "static/media/cloud_1.png": "/umap.ustp/static/media/cloud_1.337487a541787ded8c14.png",
     "static/media/map.png": "/umap.ustp/static/media/map.5009a4eb24b284675584.png",
@@ -40,9 +41,9 @@
     "static/media/arrow_forward.svg": "/umap.ustp/static/media/arrow_forward.34aa7fcb3ffec8cfbf9136422e9bed25.svg",
     "static/media/arrow_back.svg": "/umap.ustp/static/media/arrow_back.7f971537cfda8f1cde69e94817dee4b7.svg",
     "main.c083074b.css.map": "/umap.ustp/static/css/main.c083074b.css.map",
-    "main.e565fd15.js.map": "/umap.ustp/static/js/main.e565fd15.js.map",
+    "main.26cbb60e.js.map": "/umap.ustp/static/js/main.26cbb60e.js.map",
     "693.68a1fa97.chunk.css.map": "/umap.ustp/static/css/693.68a1fa97.chunk.css.map",
-    "693.ea9daca8.chunk.js.map": "/umap.ustp/static/js/693.ea9daca8.chunk.js.map",
+    "693.4190f281.chunk.js.map": "/umap.ustp/static/js/693.4190f281.chunk.js.map",
     "85.9fb85b21.chunk.js.map": "/umap.ustp/static/js/85.9fb85b21.chunk.js.map",
     "881.2f1b757e.chunk.js.map": "/umap.ustp/static/js/881.2f1b757e.chunk.js.map",
     "66.1580bec9.chunk.js.map": "/umap.ustp/static/js/66.1580bec9.chunk.js.map",
@@ -51,10 +52,10 @@
     "22.7eb921ca.chunk.js.map": "/umap.ustp/static/js/22.7eb921ca.chunk.js.map",
     "994.bfed9913.chunk.css.map": "/umap.ustp/static/css/994.bfed9913.chunk.css.map",
     "994.b21c2921.chunk.js.map": "/umap.ustp/static/js/994.b21c2921.chunk.js.map",
-    "821.4e27ad68.chunk.css.map": "/umap.ustp/static/css/821.4e27ad68.chunk.css.map",
-    "821.2d0f0a70.chunk.js.map": "/umap.ustp/static/js/821.2d0f0a70.chunk.js.map",
-    "384.2ba26308.chunk.css.map": "/umap.ustp/static/css/384.2ba26308.chunk.css.map",
-    "384.e2007fdf.chunk.js.map": "/umap.ustp/static/js/384.e2007fdf.chunk.js.map",
+    "411.6e77c8f1.chunk.css.map": "/umap.ustp/static/css/411.6e77c8f1.chunk.css.map",
+    "411.3ce1900c.chunk.js.map": "/umap.ustp/static/js/411.3ce1900c.chunk.js.map",
+    "827.f3822797.chunk.css.map": "/umap.ustp/static/css/827.f3822797.chunk.css.map",
+    "827.f3ab674b.chunk.js.map": "/umap.ustp/static/js/827.f3ab674b.chunk.js.map",
     "787.fe5dcdae.chunk.js.map": "/umap.ustp/static/js/787.fe5dcdae.chunk.js.map",
     "578.26666d82.chunk.css.map": "/umap.ustp/static/css/578.26666d82.chunk.css.map",
     "578.85b4411a.chunk.js.map": "/umap.ustp/static/js/578.85b4411a.chunk.js.map",
@@ -62,10 +63,11 @@
     "617.970ac3c3.chunk.js.map": "/umap.ustp/static/js/617.970ac3c3.chunk.js.map",
     "811.ba8efa21.chunk.js.map": "/umap.ustp/static/js/811.ba8efa21.chunk.js.map",
     "590.6d824a1c.chunk.js.map": "/umap.ustp/static/js/590.6d824a1c.chunk.js.map",
-    "581.1e2ae131.chunk.js.map": "/umap.ustp/static/js/581.1e2ae131.chunk.js.map"
+    "581.1e2ae131.chunk.js.map": "/umap.ustp/static/js/581.1e2ae131.chunk.js.map",
+    "492.45bf8af8.chunk.js.map": "/umap.ustp/static/js/492.45bf8af8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c083074b.css",
-    "static/js/main.e565fd15.js"
+    "static/js/main.26cbb60e.js"
   ]
 }
